@@ -8,6 +8,8 @@ Teleflix is an independent Android client for watching videos from Telegram chan
 
 **Download only from [official Teleflix releases](https://github.com/ankush29922/Teleflix-app/releases).** Do not install repackaged APKs from unknown websites, forwarded files or unofficial mirrors. Every release includes a SHA-256 checksum; compare it with your download. Keep using the same official source for updates.
 
+**0.3.0 scan result:** Microsoft Defender reported no threats in the release APK on 2026-09-30; its signature and SHA-256 were verified. See [SECURITY.md](SECURITY.md) for scope and limitations.
+
 The current release is a **development preview** for Android 8.0 and newer. It is not a Play Store release. It uses a development signing certificate; a future production signing transition will be documented before release.
 
 Teleflix is built as a clean client without advertising SDKs, analytics SDKs, hidden installers or bundled third-party apps. It does not include movies or scrape streaming websites. A source/manifest review and functional tests are not a guarantee that any software is virus-free. See [security and build verification](SECURITY.md) for the checks performed and their limits.

@@ -14,7 +14,8 @@ Source code is maintained in a private repository. The public repository contain
 - Android lint, JVM logic tests, isolated Android component/cache/database tests and connected-phone playback/UI checks.
 - No advertising, analytics or remote-crash-reporting SDK is declared in the application dependencies. Runtime app network functionality is Telegram plus external links the user opens.
 - The TDLib native library is a pinned third-party Android build. Its provenance and notices are published with this repository; it was not extracted from the reference APK.
-- APK signature and SHA-256 are verified before publication. No independent malware laboratory certification is claimed.
+- APK signature and SHA-256 were verified before publication. The published 0.3.0 APK has SHA-256 `a80c64b46beb8d189f54ca5ea815c90c4bf075eb294555832c83c346ef5e0745`.
+- A local Microsoft Defender custom scan of this APK on 2026-09-30 completed with **no threats found**. This is one engine’s result for that file at that time, not an independent laboratory certification or an absolute virus-free guarantee.
 
 ## Reporting
 
