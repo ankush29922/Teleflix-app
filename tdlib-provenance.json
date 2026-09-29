@@ -1,0 +1,7 @@
+{
+  "dependency": "com.github.tdlibx:td:1.8.56",
+  "source": "https://github.com/tdlibx/td/tree/77439c09d316e17a55a1e6a490c537084380288a",
+  "aar_sha256": "0ad84491ddc56aa8d7055371fdbae992e83a552a58738e26ab8d779a3676090a",
+  "native_origin": "Third-party Android build of TDLib; not extracted from the reference APK",
+  "arm64_elf_load_alignment": "0x4000 (16 KB)"
+}
