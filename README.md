@@ -2,6 +2,8 @@
 <h1 align="center">Teleflix</h1>
 <p align="center">Your Telegram video library, made for your phone.<br><strong>Developed by xen</strong></p>
 
+<p align="center"><a href="https://ankush29922.github.io/Teleflix-app/"><strong>Explore the Teleflix website →</strong></a></p>
+
 Teleflix is an independent Android app for watching videos from Telegram channels and groups you already have access to. This is the official public repository for APK downloads, documentation and bug reports. Source code is maintained in a separate private repository.
 
 ## Download Teleflix 1.0.0

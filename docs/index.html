@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <title>Teleflix — Your Telegram. A better way to watch.</title>
+  <meta name="description" content="Turn your Telegram videos into a personal library with Teleflix for Android. Thoughtful playback, channel stacks, Watch Later and automatic cache cleanup. Download the official APK.">
+  <link rel="canonical" href="https://ankush29922.github.io/Teleflix-app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Teleflix">
+  <meta property="og:title" content="Teleflix — Your Telegram. A better way to watch.">
+  <meta property="og:description" content="Your videos, beautifully organised. A personal Telegram video library, made for Android. Developed by xen.">
+  <meta property="og:url" content="https://ankush29922.github.io/Teleflix-app/">
+  <meta property="og:image" content="https://ankush29922.github.io/Teleflix-app/assets/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Teleflix. Your Telegram. A better way to watch. Available for Android.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="assets/teleflix-icon.svg">
+  <link rel="apple-touch-icon" href="assets/teleflix-icon.png">
+  <link rel="preload" as="image" href="assets/quiet_orbit.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Teleflix","applicationCategory":"MultimediaApplication","operatingSystem":"Android 8.0 or newer","softwareVersion":"1.0.0","url":"https://ankush29922.github.io/Teleflix-app/","downloadUrl":"https://github.com/ankush29922/Teleflix-app/releases/download/v1.0.0/Teleflix-1.0.0.apk","author":{"@type":"Person","name":"xen"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+      <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4Z"/></symbol>
+      <symbol id="i-stack" viewBox="0 0 24 24"><rect x="3" y="9" width="18" height="12" rx="3"/><path d="M5 5h14M8 1h8m-6 12 5 2-5 3Z"/></symbol>
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7M5 9v12h5v-7h4v7h5V9"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v6l4 2"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6Z"/><path d="m8 12 3 3 5-6"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3m1-16a3 3 0 0 1 0 6m3 10v-3a6 6 0 0 0-2-4"/></symbol>
+      <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h5m5 0h6M4 12h9m5 0h2M4 18h3m5 0h8"/><circle cx="11" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="9" cy="18" r="2"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 20c-4 1-4-2-6-2m12 4v-4c0-1 .1-2-1-3 4-.4 7-2 7-6 0-1.6-.5-3-1.5-4 .1-1 .1-2-.5-3-2 0-3 1-4 1.5a13 13 0 0 0-6 0C8 3 7 2 5 2c-.6 1-.6 2-.5 3C3.5 6 3 7.4 3 9c0 4 3 5.6 7 6-1 1-1 2-1 3v4"/></symbol>
+      <symbol id="i-android" viewBox="0 0 24 24"><path d="m7 4-2-3m12 3 2-3M3 12a9 9 0 0 1 18 0Z"/><path d="M3 15v4h18v-4M7 19v3m10-3v3"/><path d="M8 8h.01M16 8h.01" stroke-width="3"/></symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Teleflix home"><img src="assets/teleflix-icon.svg" width="36" height="36" alt=""><span>teleflix<span class="brand-dot">.</span></span></a>
+      <nav aria-label="Main navigation">
+        <a class="nav-section" href="#features">Features</a>
+        <a class="nav-section" href="#get-started">Get started</a>
+        <a class="nav-github" href="https://github.com/ankush29922/Teleflix-app"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-github"/></svg><span>GitHub</span></a>
+      </nav>
+      <a class="button button-small" href="#download">Get the app <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <a class="release-pill" href="https://github.com/ankush29922/Teleflix-app/releases/tag/v1.0.0"><span class="status-dot"></span> TELEFLIX 1.0 IS HERE <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+        <h1 id="hero-heading">Your Telegram.<br> A better way<br> to <span>watch.</span></h1>
+        <p class="hero-description">Give your videos a place of their own. A beautiful, personal library for the Telegram channels you love. Made for your Android phone.</p>
+        <div class="hero-actions">
+          <a class="button" href="https://github.com/ankush29922/Teleflix-app/releases/download/v1.0.0/Teleflix-1.0.0.apk"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-download"/></svg> Download APK</a>
+          <a class="text-link" href="#features">Take a look around <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="download-meta"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-android"/></svg> Android 8.0+ <span>·</span> Free to use <span>·</span> 63 MB</p>
+      </div>
+
+      <figure class="hero-visual">
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="floating-note note-top"><span class="small-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-stack"/></svg></span><div>Your collection.<br> <strong>Your pace.</strong></div></div>
+        <div class="phone">
+          <div class="phone-camera" aria-hidden="true"></div>
+          <div class="phone-status" aria-hidden="true"><span>9:41</span><span>▮▮▮ &nbsp; ▰</span></div>
+          <div class="phone-header"><div class="brand"><img src="assets/teleflix-icon.svg" width="28" height="28" alt=""><span>teleflix</span></div><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span class="avatar">x</span></div>
+          <div class="phone-content">
+            <div class="phone-title"><span>MAKE YOURSELF AT HOME</span><h2>Something good<br> is waiting.</h2></div>
+            <div class="phone-section-title">Continue watching <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></div>
+            <button class="continue-card" data-open-preview aria-label="Play Teleflix's original sample clip">
+              <img src="assets/quiet_orbit.webp" width="480" height="720" alt="An illustrated ringed planet above a mountain landscape">
+              <span class="preview-tag">SAMPLE</span><span class="round-play"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-play"/></svg></span>
+              <span class="continue-copy"><strong>The Quiet Orbit</strong><span>A little further from ordinary.</span></span>
+              <span class="progress-line"></span>
+            </button>
+            <div class="phone-section-title">Your channels <span>See all →</span></div>
+            <div class="channel-chips"><span><i class="channel-dot"></i> The Screening Room</span><span>After Hours</span></div>
+            <div class="phone-section-title">Ready when you are <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bookmark"/></svg></div>
+            <div class="phone-movies">
+              <div><div class="phone-art"><img src="assets/last_light.webp" width="480" height="720" alt="" loading="eager"><span>1080p</span><small>1:53:00</small></div><b>Last Light</b></div>
+              <div><div class="phone-art"><img src="assets/silent_city.webp" width="480" height="720" alt="" loading="eager"><span>1080p</span><small>1:56:00</small></div><b>The Silent City</b></div>
+            </div>
+          </div>
+          <div class="phone-nav" aria-hidden="true"><span class="selected"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Home</span><span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-stack"/></svg>Channels</span><span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bookmark"/></svg>Watch Later</span></div>
+          <div class="phone-handle" aria-hidden="true"></div>
+        </div>
+        <div class="floating-note note-bottom"><span class="small-icon mint"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><div>Less clutter. More space.<br> <strong>Automatic cache cleanup</strong></div></div>
+        <figcaption>Illustrated app preview · original sample artwork</figcaption>
+      </figure>
+    </section>
+
+    <div class="container benefit-strip" aria-label="At a glance">
+      <p><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-play"/></svg> Your videos. Front and centre.</p>
+      <p><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-users"/></svg> Up to 3 Telegram accounts</p>
+      <p><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg> No ads or analytics SDKs</p>
+    </div>
+
+    <section class="section container" id="features" aria-labelledby="features-heading">
+      <div class="section-heading"><div><p class="eyebrow">A LITTLE MORE THOUGHTFUL</p><h2 id="features-heading">Everything you need.<br> Room to enjoy it.</h2></div><p>From the first scroll to the closing frame,<br class="desktop-break"> the little things make a difference.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card library-card">
+          <div class="card-top"><span class="feature-index">01 / YOUR LIBRARY</span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-stack"/></svg></div>
+          <h3>Organised your way.</h3>
+          <p>Bring your folders, make channel stacks, and pin your favourites. Pick your grid. Find your rhythm.</p>
+          <div class="library-demo">
+            <div class="demo-toolbar"><span>The Screening Room <span class="subtle">/ Preview</span></span><div class="grid-controls" role="group" aria-label="Preview video grid columns"><button type="button" data-columns="1" aria-label="One column" aria-pressed="false">▰</button><button type="button" data-columns="2" aria-label="Two columns" aria-pressed="true">▥</button><button type="button" data-columns="3" aria-label="Three columns" aria-pressed="false">▥▏</button></div></div>
+            <div class="demo-grid" id="demo-grid" data-columns="2" tabindex="0" role="region" aria-label="Sample video grid">
+              <div class="demo-video"><img src="assets/quiet_orbit.webp" width="480" height="720" alt="Original artwork: The Quiet Orbit" loading="lazy"><span class="quality">1080p</span><span class="demo-video-title">The Quiet Orbit</span></div>
+              <div class="demo-video"><img src="assets/last_light.webp" width="480" height="720" alt="Original artwork: Last Light" loading="lazy"><span class="quality">1080p</span><span class="demo-video-title">Last Light</span></div>
+              <div class="demo-video"><img src="assets/silent_city.webp" width="480" height="720" alt="Original artwork: The Silent City" loading="lazy"><span class="quality">1080p</span><span class="demo-video-title">The Silent City</span></div>
+              <div class="demo-video"><img src="assets/almost_tomorrow.webp" width="480" height="720" alt="Original artwork: Almost Tomorrow" loading="lazy"><span class="quality">1080p</span><span class="demo-video-title">Almost Tomorrow</span></div>
+            </div>
+            <p class="demo-hint" id="grid-status" aria-live="polite">Try the layout controls · 2 columns</p>
+          </div>
+        </article>
+        <article class="feature-card cleanup-card">
+          <div class="card-top"><span class="feature-index">02 / A FRESH START</span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg></div>
+          <h3>A little self-care.<br> For your storage.</h3>
+          <p>Watched video cache expires on your schedule. Your Watch Later list, progress and login stay put.</p>
+          <div class="cleanup-demo"><div class="cleanup-ring"><div><strong id="retention-value">1 day</strong><span>AFTER LAST WATCH</span></div></div><div class="retention-controls" role="group" aria-label="Preview automatic cleanup schedule"><button type="button" data-retention="Off" aria-pressed="false">Off</button><button type="button" data-retention="1 day" aria-pressed="true">1 day</button><button type="button" data-retention="3 days" aria-pressed="false">3 days</button><button type="button" data-retention="7 days" aria-pressed="false">7 days</button></div><p class="demo-hint" id="retention-status" aria-live="polite">Preview · 1 day by default. Custom hours in the app.</p></div>
+        </article>
+        <article class="feature-card small-card"><span class="feature-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg></span><h3>Less searching.<br> More finding.</h3><p>Search your Telegram cloud chats or your local library. Sort channels oldest or newest first, and hide short clips.</p><span class="card-footnote">Loads as you scroll</span></article>
+        <article class="feature-card small-card"><span class="feature-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bookmark"/></svg></span><h3>For your next<br> “just one more.”</h3><p>Hold a video to save it to Watch Later. Pick up where you left off, whenever you have a moment.</p><span class="card-footnote">Your progress, remembered</span></article>
+        <article class="feature-card small-card"><span class="feature-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-users"/></svg></span><h3>Different accounts.<br> All at home.</h3><p>Switch between up to three Telegram accounts. Each keeps its own library, cache allowance and cleanup settings.</p><span class="card-footnote">A space for each account</span></article>
+      </div>
+    </section>
+
+    <section class="player-section container" aria-labelledby="player-heading">
+      <div class="player-stage">
+        <div class="landscape-player"><img class="player-art" src="assets/quiet_orbit.webp" width="480" height="720" alt="Original Teleflix artwork of a ringed planet above mountains" loading="lazy"><div class="player-topline"><span>THE QUIET ORBIT</span><span>ORIGINAL SAMPLE</span></div><button class="player-preview-button" data-open-preview aria-label="Play the original Teleflix sample clip"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-play"/></svg></button><div class="player-bottomline"><span>A moment to switch off.</span><span>Sample clip <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></div></div>
+        <p class="demo-hint">Play the app’s original motion study. Sample artwork, not a film catalogue.</p>
+      </div>
+      <div class="player-copy"><p class="eyebrow">SETTLE IN</p><h2 id="player-heading">Big on the<br> little controls.</h2><p>A player that feels at home in your hand. With the controls you reach for, right where you need them.</p><ul class="player-features"><li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg> Double-tap to seek. Swipe for volume and brightness.</li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg> Fit, fill, pinch to zoom. Lock out accidental taps.</li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg> A thumbnail playlist with optional auto-next.</li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg> Playback speed and available audio/subtitle tracks.</li></ul></div>
+    </section>
+
+    <section class="section getting-started" id="get-started" aria-labelledby="start-heading"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">FROM DOWNLOAD TO PLAY</p><h2 id="start-heading">Make yourself at home.</h2></div><p>Your phone. Your account. Your library.</p></div>
+      <ol class="steps"><li><span class="step-number">01</span><h3>Get Teleflix.</h3><p>Download the signed APK from our GitHub release. Open it on your Android phone and allow installation when prompted.</p><a class="text-link" href="https://github.com/ankush29922/Teleflix-app/releases/latest">Official releases <span aria-hidden="true">↗</span></a></li><li><span class="step-number">02</span><h3>Connect your Telegram.</h3><p>Create your own API ID and API hash at <a href="https://my.telegram.org/apps">my.telegram.org/apps</a>. Enter them in Teleflix, then sign in with your phone number.</p><span class="step-note">Your credentials go in the app, never on this website.</span></li><li><span class="step-number">03</span><h3>Find your next watch.</h3><p>Choose a channel you already have access to. Pin your favourites, build a stack, and press play.</p><span class="step-note">Want a first look? Try “Explore the design” in the app.</span></li></ol>
+    </div></section>
+
+    <section class="section container faq-section" id="faq" aria-labelledby="faq-heading"><div><p class="eyebrow">GOOD TO KNOW</p><h2 id="faq-heading">A few details,<br> before you dive in.</h2><p>Independent. Thoughtfully made.<br> Developed by xen.</p><a class="text-link" href="https://github.com/ankush29922/Teleflix-app/issues/new?template=bug_report.yml">Help make it better <span aria-hidden="true">↗</span></a></div><div class="faq-list">
+      <details><summary>What can I watch with Teleflix?<span aria-hidden="true">+</span></summary><p>Videos in Telegram channels and groups your connected account can already access. Teleflix organises and plays your existing content; it does not provide a film catalogue, subscriptions or access to private channels. The artwork on this page is original sample artwork.</p></details>
+      <details><summary>Is it free? Are there ads?<span aria-hidden="true">+</span></summary><p>Teleflix is free to download and use. The app includes no advertising or analytics SDKs. It connects to Telegram through TDLib and has no Teleflix backend. Your normal internet and Telegram service conditions still apply.</p></details>
+      <details><summary>Why do I need a Telegram API ID and hash?<span aria-hidden="true">+</span></summary><p>This release uses your own Telegram application credentials from <a href="https://my.telegram.org/apps">my.telegram.org/apps</a>. Enter the API ID and hash on your phone, followed by Telegram’s sign-in checks. No shared API credentials are bundled. Keep your API hash, login codes and password private.</p></details>
+      <details><summary>Will auto-clean delete my videos or saved list?<span aria-hidden="true">+</span></summary><p>Auto-clean removes local cached video data after the time you choose, starting from the last playback. It does not delete Telegram originals, Watch Later entries, watch progress or login details. Rewatching resets the timer, and active playback is protected. The default is one day; Android may delay background cleanup to save battery.</p></details>
+      <details><summary>Which devices and features are supported?<span aria-hidden="true">+</span></summary><p>Teleflix 1.0.0 is made for Android phones running Android 8.0 or newer. Codec support depends on your device. Android TV, iOS, live translation, external subtitle import and a dedicated offline-download manager are not included in this release.</p></details>
+      <details><summary>Where should I download updates?<span aria-hidden="true">+</span></summary><p>Use the <a href="https://github.com/ankush29922/Teleflix-app/releases">official GitHub releases</a>. Each release includes a signed APK and SHA-256 checksum. Read the <a href="https://github.com/ankush29922/Teleflix-app/blob/main/SECURITY.md">verification notes</a> for details. This public repository contains releases, documentation and this website; app source is maintained privately.</p></details>
+    </div></section>
+
+    <section class="container" id="download" aria-labelledby="download-heading"><div class="download-panel"><div><p class="eyebrow">YOUR NEXT WATCH IS WAITING</p><h2 id="download-heading">A little less scrolling.<br> A little more <span>Teleflix.</span></h2><p>Bring your Telegram library home.</p></div><div class="download-panel-actions"><a class="button" href="https://github.com/ankush29922/Teleflix-app/releases/download/v1.0.0/Teleflix-1.0.0.apk"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-download"/></svg> Download for Android</a><span>Version 1.0.0 · Android 8.0+ · 63 MB</span><a class="checksum-link" href="https://github.com/ankush29922/Teleflix-app/releases/tag/v1.0.0">Release notes &amp; checksum <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+
+  <footer class="container site-footer"><div class="footer-top"><a class="brand" href="#" aria-label="Back to top"><img src="assets/teleflix-icon.svg" width="30" height="30" alt=""><span>teleflix<span class="brand-dot">.</span></span></a><p>Made for your phone. Developed by <a href="https://github.com/ankush29922">xen</a>.</p><nav aria-label="Footer navigation"><a href="https://github.com/ankush29922/Teleflix-app/blob/main/PRIVACY.md">Privacy</a><a href="https://github.com/ankush29922/Teleflix-app/blob/main/PERMISSIONS.md">Permissions</a><a href="https://github.com/ankush29922/Teleflix-app/issues/new?template=bug_report.yml">Report a bug</a></nav></div><div class="footer-bottom"><p>Teleflix is an independent app, not affiliated with Telegram or Netflix.</p><a href="https://github.com/ankush29922/Teleflix-app">Find us on GitHub <span aria-hidden="true">↗</span></a></div></footer>
+
+  <dialog class="preview-dialog" id="preview-dialog" aria-labelledby="preview-title"><div class="dialog-heading"><div><h2 id="preview-title">A small taste of Teleflix.</h2><p>The original sample clip bundled with the app.</p></div><button class="dialog-close" id="close-preview" aria-label="Close sample video">×</button></div><video id="preview-video" controls playsinline preload="none" aria-label="Original Teleflix motion study: an animated illustrated landscape with no speech"><source src="assets/teleflix-preview.mp4" type="video/mp4"></video><p class="dialog-note">An artwork and playback sample. Sign in to Telegram in the app to watch your own videos.</p></dialog>
+</body>
+</html>

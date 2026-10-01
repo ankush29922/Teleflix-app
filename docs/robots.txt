@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /Teleflix-app/
+
+Sitemap: https://ankush29922.github.io/Teleflix-app/sitemap.xml
